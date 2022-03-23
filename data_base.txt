@@ -1,0 +1,26 @@
+__init__.py
+__main__
+
+CREATE
+SELECT
+INSERT
+
+https://www.w3schools.com/sql/sql_select.asp
+https://www.w3schools.com/sql/sql_insert.asp
+https://www.w3schools.com/sql/sql_create_table.asp
+
+# high score table
+CREATE TABLE "HighScore" (
+	"ScoreID"	INTEGER UNIQUE,
+	"Name"	TEXT,
+	"Score"	REAL,
+	PRIMARY KEY("ScoreID" AUTOINCREMENT)
+);
+
+
+# name of table
+CREATE TABLE "Names" (
+	"Name"	TEXT,
+	"NameID"	INTEGER UNIQUE,
+	PRIMARY KEY("NameID" AUTOINCREMENT)
+);
